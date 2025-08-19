@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EEG Analysis Outputs</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        .description { margin-bottom: 20px; font-size: 1.2em; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+        .grid img { width: 100%; height: auto; border: 1px solid #ddd; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>EEG Analysis Outputs</h1>
+    <div class="description">
+        This page displays the generated plots and images from the EEG analysis pipeline for hypotheses H1-H4, including peak graphs, z-score graphs, topoplots, and averaged bar plots.
+    </div>
+    <div class="grid">
+        <img src="Averaged_T1_T2_Bar_Plot.png" alt="Averaged_T1_T2_Bar_Plot">
+        <img src="H1_Paired_Dot_Plot.png" alt="H1_Paired_Dot_Plot">
+        <img src="H1_Side_by_Side_Bar_Chart_All_Participants.png" alt="H1_Side_by_Side_Bar_Chart_All_Participants">
+        <img src="H2_PeakGraph_BAR_PT1NN.png" alt="H2_PeakGraph_BAR_PT1NN">
+        <img src="H2_PeakGraph_BAR_PT2YY.png" alt="H2_PeakGraph_BAR_PT2YY">
+        <img src="H2_PeakGraph_BAR_PT3YY.png" alt="H2_PeakGraph_BAR_PT3YY">
+        <img src="H2_PeakGraph_BAR_PT4YY.png" alt="H2_PeakGraph_BAR_PT4YY">
+        <img src="H2_PeakGraph_BAR_PT7YN.png" alt="H2_PeakGraph_BAR_PT7YN">
+        <img src="H2_PeakGraph_BAR_YStar.png" alt="H2_PeakGraph_BAR_YStar">
+        <img src="H2_PeakGraph_FAA_PT1NN.png" alt="H2_PeakGraph_FAA_PT1NN">
+        <img src="H2_PeakGraph_FAA_PT2YY.png" alt="H2_PeakGraph_FAA_PT2YY">
+        <img src="H2_PeakGraph_FAA_PT3YY.png" alt="H2_PeakGraph_FAA_PT3YY">
+        <img src="H2_PeakGraph_FAA_PT4YY.png" alt="H2_PeakGraph_FAA_PT4YY">
+        <img src="H2_PeakGraph_FAA_PT7YN.png" alt="H2_PeakGraph_FAA_PT7YN">
+        <img src="H2_PeakGraph_FAA_YStar.png" alt="H2_PeakGraph_FAA_YStar">
+        <img src="H2_PeakGraph_HB_PT1NN.png" alt="H2_PeakGraph_HB_PT1NN">
+        <img src="H2_PeakGraph_HB_PT2YY.png" alt="H2_PeakGraph_HB_PT2YY">
+        <img src="H2_PeakGraph_HB_PT3YY.png" alt="H2_PeakGraph_HB_PT3YY">
+        <img src="H2_PeakGraph_HB_PT4YY.png" alt="H2_PeakGraph_HB_PT4YY">
+        <img src="H2_PeakGraph_HB_PT7YN.png" alt="H2_PeakGraph_HB_PT7YN">
+        <img src="H2_PeakGraph_HB_YStar.png" alt="H2_PeakGraph_HB_YStar">
+        <img src="H2_PeakGraph_TBR_PT1NN.png" alt="H2_PeakGraph_TBR_PT1NN">
+        <img src="H2_PeakGraph_TBR_PT2YY.png" alt="H2_PeakGraph_TBR_PT2YY">
+        <img src="H2_PeakGraph_TBR_PT3YY.png" alt="H2_PeakGraph_TBR_PT3YY">
+        <img src="H2_PeakGraph_TBR_PT4YY.png" alt="H2_PeakGraph_TBR_PT4YY">
+        <img src="H2_PeakGraph_TBR_PT7YN.png" alt="H2_PeakGraph_TBR_PT7YN">
+        <img src="H2_PeakGraph_TBR_YStar.png" alt="H2_PeakGraph_TBR_YStar">
+        <img src="H2_T1_Consolidated_Topoplots_HB_FAA.png" alt="H2_T1_Consolidated_Topoplots_HB_FAA">
+        <img src="H2_W_Consolidated_Topoplots_HB_FAA.png" alt="H2_W_Consolidated_Topoplots_HB_FAA">
+        <img src="H2_ZScoreGraph_BAR_PT1NN.png" alt="H2_ZScoreGraph_BAR_PT1NN">
+        <img src="H2_ZScoreGraph_BAR_PT2YY.png" alt="H2_ZScoreGraph_BAR_PT2YY">
+        <img src="H2_ZScoreGraph_BAR_PT3YY.png" alt="H2_ZScoreGraph_BAR_PT3YY">
+        <img src="H2_ZScoreGraph_BAR_PT4YY.png" alt="H2_ZScoreGraph_BAR_PT4YY">
+        <img src="H2_ZScoreGraph_BAR_PT7YN.png" alt="H2_ZScoreGraph_BAR_PT7YN">
+        <img src="H2_ZScoreGraph_BAR_YStar.png" alt="H2_ZScoreGraph_BAR_YStar">
+        <img src="H2_ZScoreGraph_FAA_PT1NN.png" alt="H2_ZScoreGraph_FAA_PT1NN">
+        <img src="H2_ZScoreGraph_FAA_PT2YY.png" alt="H2_ZScoreGraph_FAA_PT2YY">
+        <img src="H2_ZScoreGraph_FAA_PT3YY.png" alt="H2_ZScoreGraph_FAA_PT3YY">
+        <img src="H2_ZScoreGraph_FAA_PT4YY.png" alt="H2_ZScoreGraph_FAA_PT4YY">
+        <img src="H2_ZScoreGraph_FAA_PT7YN.png" alt="H2_ZScoreGraph_FAA_PT7YN">
+        <img src="H2_ZScoreGraph_FAA_YStar.png" alt="H2_ZScoreGraph_FAA_YStar">
+        <img src="H2_ZScoreGraph_HB_PT1NN.png" alt="H2_ZScoreGraph_HB_PT1NN">
+        <img src="H2_ZScoreGraph_HB_PT2YY.png" alt="H2_ZScoreGraph_HB_PT2YY">
+        <img src="H2_ZScoreGraph_HB_PT3YY.png" alt="H2_ZScoreGraph_HB_PT3YY">
+        <img src="H2_ZScoreGraph_HB_PT4YY.png" alt="H2_ZScoreGraph_HB_PT4YY">
+        <img src="H2_ZScoreGraph_HB_PT7YN.png" alt="H2_ZScoreGraph_HB_PT7YN">
+        <img src="H2_ZScoreGraph_HB_YStar.png" alt="H2_ZScoreGraph_HB_YStar">
+        <img src="H2_ZScoreGraph_TBR_PT1NN.png" alt="H2_ZScoreGraph_TBR_PT1NN">
+        <img src="H2_ZScoreGraph_TBR_PT2YY.png" alt="H2_ZScoreGraph_TBR_PT2YY">
+        <img src="H2_ZScoreGraph_TBR_PT3YY.png" alt="H2_ZScoreGraph_TBR_PT3YY">
+        <img src="H2_ZScoreGraph_TBR_PT4YY.png" alt="H2_ZScoreGraph_TBR_PT4YY">
+        <img src="H2_ZScoreGraph_TBR_PT7YN.png" alt="H2_ZScoreGraph_TBR_PT7YN">
+        <img src="H2_ZScoreGraph_TBR_YStar.png" alt="H2_ZScoreGraph_TBR_YStar">
+    </div>
+</body>
+</html>
